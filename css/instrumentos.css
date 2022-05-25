@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Open+Sans&family=Poppins:wght@700&family=Roboto&display=swap');
+
+/* CONFIG. GERAL */
+
+.container {
+ /*border: solid 3px red;*/
+}
+.row {  
+ /*border: solid 3px green;*/
+}
+
+.col-12 , .col-sm-12,  .col-md-5 , .col-lg-5 , .col-md-8  , .col-lg-8 , .col-3  , .col-md-7 , .col-lg-7{
+ /*border: solid 3px yellow;*/
+}
+
+/* CONFIG. GERAL */
+
+/* Header*/
+.menu ul {
+    padding:0px;
+	margin:0px;
+	list-style:none;
+    display: flex;
+}
+
+.menu ul li { display: inline; }
+
+.menu ul li a {
+	padding: 1em 1em 1em 2em ;
+	display: inline-block;
+	color: #FFFFFF;
+	text-decoration: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;   
+    font-size: 20px;
+    line-height: 30px;
+   
+}
+
+.menu ul li .bt-cursos {
+	outline: 0;
+    padding: 10px 10px;
+    background-color: white;
+    color: #692E7D;
+    border-radius: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+	font-style: none;
+}
+
+
+.menu ul li a:hover {
+    color:#FD749B;
+    transition: 0.3s;
+    border: none;
+    transition: 0.3s;
+}
+
+.botao-cadastro {
+    color: #ffffff;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 60px;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 200;
+    padding: 0.1em;
+    margin: 1em;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    width: 140px;
+    height: 40px;
+    
+}
+
+.botao-cadastro:hover {
+    color:#FD749B;
+    border: 2px solid #FD749B;
+    transition: 0.3s;
+    transition: 0.3s;
+}
+
+
+ /* Header*/ 
+
+
+
+/* 1 SECAO MAIN */
+
+.titulo-testes  {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 65px;
+    background-image: linear-gradient(to bottom, #FD749B, #281AC8);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; 
+    padding: 2em 0 0.5em 0;
+    
+}
+
+.paragrafo-testes {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+    padding: 1em ;
+}
+
+.botao-testes{
+    color: #ffffff;
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    border-radius: 100px;
+    border: 2px solid #FD749B;
+    line-height: 65px;
+    box-sizing: border-box;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 200;
+    margin: 1em;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    width: 230px;
+    height: 70px;
+}
+
+.botao-testes:hover {
+    color:#27f3e9;
+    border: 2px solid #FD749B;
+    transition: 0.3s;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+.caixa-fases {
+    background: rgba(132, 134, 186, 0.78);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    width: 300px;
+    height: 80%;
+    margin: 3em 0 5em 0;
+}
+
+.titulo-caixa-fases {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #150035;
+    padding: 1em 0 0.5em 0.5em;
+}
+
+.botao-caixa-fases {
+    color: #ffffff;
+    background: #150035;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    box-sizing: border-box;
+    border-radius: 52px;
+    font-family: Arimo;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    padding: 0.6em;
+    margin: 1em 0 0.5em 0;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+}
+/* 1 SECAO MAIN */
+
+
+
+/* 2 SECAO MAIN */
+
+
+.titulo-fases-evolucao {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 65px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 2em;
+}
+.subtitulo-fases-evolucao{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    padding: 1em 0 2em 0;
+    color: #FFFFFF;
+}
+
+.img-responsive {
+    width: 100%;
+    ;
+}
+
+/* 2 SECAO MAIN */
+
+/* RODAPE */
+
+.rodape-titulo-fases {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 1em 0 1em 0;
+
+}
+
+.rodape-nomes-fases {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 0.2em 0 0 0;
+}
+/* RODAPE*/
+
+
+/* RESPONSIVIDADE */
+
+@media screen and (max-width: 576px) {
+    .img-responsive {
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #imagem-coin {
+        width: 150px;
+        height: 140px;
+        align-items: center;
+    }
+    .justify-content-flex-start  {
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .paragrafo-bem-vindo {
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+    }
+
+    .titulo-cabecalho , .subtitulo-cabecalho{
+        display: flex;
+        justify-content: center;
+        padding: 1em;
+        
+    }
+ 
+}
+
+@media screen and (max-width: 768px) {
+    .menu ul li { 
+        margin: 15px;
+    }
+
+    .menu ul li a {
+        padding: initial;
+    }
+
+    .justify-content-flex-start  {
+        display: flex;
+        justify-content: center;
+        
+        
+    }
+    #imagem-coin-cabecalho , #imagem-trofeu-cabecalho {
+        justify-content: center;
+    }
+
+    .paragrafo-testes{
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+    }
+
+    .titulo-testes  , .subtitulo-cabecalho{
+        display: flex;
+        justify-content: center;
+        padding: 1em;
+        text-align: center;
+        
+    }
+
+    #evo-rodape  {
+        align-items: center;
+        text-align: center;
+    }
+
+    #img-evo-rodape, #img-trilha-rodape   {
+        width: 50%;
+
+    }
+
+    #img-inova-rodape {
+        width: 65%;
+    }
+ 
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .paragrafo-testes{
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+    }
+
+    .titulo-testes  , .subtitulo-cabecalho{
+        display: flex;
+        justify-content: center;   
+        text-align: center;
+        
+    }
+    #responsividade-rodape {
+        flex-direction: column;
+    }
+
+    #img-evo-rodape, #img-trilha-rodape   {
+        width: 50%;
+
+    }
+
+    #img-inova-rodape {
+        width: 65%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #img-evo-rodape , #img-trilha-rodape{
+        width: 70%;
+
+    }
+}
+
+
+/* RESPONSIVIDADE */

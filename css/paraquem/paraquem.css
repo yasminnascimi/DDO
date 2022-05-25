@@ -1,0 +1,42 @@
+.paraquem{
+    align-items: center;
+    display:flex;
+    padding: 0 2rem 154px 2rem;
+}
+.paraquem__descricao{
+    width:33.33%;
+}
+.paraquem__info{
+    display:flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    padding: 0 2rem 0 2rem;
+}
+.paraquem__info__titulo{
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color:black;
+    font-size: 28px;
+    max-width: 389px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.paraquem__info__texto{
+    color:#333333;
+    font-size: 18px;
+    max-width: 450px;
+}
+.paraquem__img{
+    align-items: center;
+    width: 50%;
+}
+.paraquem__img__img{
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
+}

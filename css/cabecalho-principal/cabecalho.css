@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@700&display=swap');
+
+/* CONFIG. GERAL */
+
+.onda {
+    width: 98.7vw;
+    height: 99.2vh;
+    background-image: url("../img/onda.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.fundo-azul {
+    background-image: url('../../img/fundo-roxo.png');
+    background-size: contain;
+    background-repeat: round;
+}
+
+.fundo-azul2 {
+    background-image: url('../../img/fundo-roxo2.png');
+    background-size: cover;
+    height: fit-content;
+}
+
+.container {
+ /*  border: solid 3px red;*/
+}
+.row {  
+ /*  border: solid 3px green;*/
+}
+
+.col-12 , .col-sm-12,  .col-md-5 , .col-lg-5 , .col-md-8  , .col-lg-8 , .col-3  , .col-md-7 , .col-lg-7{
+ /* border: solid 3px yellow; */
+}
+
+
+/* CONFIG. GERAL */
+
+/* Cabecalho Pagina Principal */
+.menu ul {
+    padding:0px;
+	margin:0px;
+	list-style:none;
+    display: flex;   
+}
+
+.menu ul li { display: inline; }
+
+.menu ul li a {
+	padding: 1em 1em 1em 2em ;
+	display: inline-block;
+	color: #FFFFFF;
+	text-decoration: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    
+    font-size: 20px;
+    line-height: 30px;
+   
+}
+
+.menu ul li a:hover {
+    color:#FD749B;
+    transition: 0.3s;
+    text-decoration: underline;
+    border: none;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+
+.titulo-cabecalho{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 63px;
+    color: #FFFFFF;
+    padding: 1em 0 0.5em 2em ;
+}
+
+.subtitulo-cabecalho {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding: 1em 0 1em 4em;
+
+}
+
+/* Cabecalho Pagina Principal*/
+
+/* Parte Bem-Vindo */
+
+.bem-vindo  {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 65px;
+    background-image: linear-gradient(to bottom, #FD749B, #281AC8);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; 
+    padding: 2em 0 0.5em 0;
+    
+}
+
+.paragrafo-bem-vindo {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+    padding: 1em 1em 0 0;
+}
+
+
+
+/* Parte Bem-Vindo  */
+
+/* 4 tipos de depressão */
+
+
+.titulo-depressao {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 65px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 2em;
+    margin-top: 80px;
+}
+.subtitulo-depressao{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 65px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.caixa-depressao {
+    background: #ffffff;
+    box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    width: 300px;
+    height: 80%;
+    padding: 1em ;
+    margin: 3em 0 5em 0;
+
+}
+
+.titulo-caixa-depressao{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    background-image: linear-gradient(to bottom, #FD749B, #281AC8);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; 
+    text-align: center;
+    padding: 1em 0 0.5em 0;
+}
+.texto-caixa-depressao {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #333333;
+}
+
+.img-responsive {
+    width: 80%;
+}
+
+.img-responsive-central {
+    width: 130%;
+    animation: float 4s linear infinite;
+}
+
+
+
+/* Parte 4 tipos de depressão */
+
+/*  Informativos   */
+
+.fases {
+    overflow: hidden;
+}
+
+.fases__titulo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    line-height: 65px;
+    text-align: center;
+    background: linear-gradient(178.18deg, #9AE3F3 -13.56%, #281AC8 158.3%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #9AE3F3;
+    
+}
+
+.fases__paragrafo {
+    width: 850px;
+    height: 106px;
+    color: #781eee;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 39px;
+}
+
+.fases__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fases__cardFase {
+    color: #fff;
+    width: 228.3px;
+    border-radius: 100px;
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    height: 54px;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    line-height: 54px;
+    text-align: center; 
+    vertical-align: middle;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.fases__cardImg {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fases__cardImg--calcao {
+    width: 173px;
+    height: 183px;
+    background-image: url("../../../img/calcao.png");
+}
+
+.fases__cardImg--moeda {
+    width: 133px;
+    height: 132px;
+    background-image: url("../../../img/moeda.png");
+}
+
+.fases__cardImg--carteira {
+    width: 188px;
+    height: 187px;
+    background-image: url("../../../img/carteira.png");
+}
+
+.fases__cardImg--sir {
+    width: 188px;
+    height: 187px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../../../img/sir.png");
+}
+.fases__cards {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.fases__cardTitulo {
+    color: rgb(11, 8, 56);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    width: 190px;
+    text-align: left;
+    margin: 20px;
+}
+
+/* CONTAINERS */
+
+.fases__container {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-top: 116px;
+    padding-bottom: 88px;
+}
+
+.fases__container:not(.fases__container:nth-child(4)) {
+    border-bottom: 1px solid #692E7D;
+} 
+
+.fases__container:nth-child(odd){
+    flex-direction: row-reverse;
+}
+
+.fases__container:nth-child(even){
+    justify-content: left;
+}
+
+.fases__containerConteudo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 113px;
+}
+
+.fases__containerImg {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fases__containerImg--calcao {
+    width: 270px;
+    height: 264px;
+    background-image: url("../../../img/calcaoMaior.png");
+}
+
+.fases__containerImg--moeda {
+    width: 218px;
+    height: 240px;
+    background-image: url("../../../img/moedaMaior.png");
+}
+
+.fases__containerImg--carteira {
+    width: 242px;
+    height: 236px;
+    margin-right: 60px;
+    background-image: url("../../../img/carteiraMaior.png");
+}
+
+.fases__containerImg--sir {
+    width: 282px;
+    height: 274px;
+    background-image: url("../../../img/sirMaior.png");
+}
+
+.fases__containerParagrafo {
+    color: #220F71;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    height: 108px;
+    line-height: 30px;
+    text-align: left;
+    margin: 0;
+    margin-top: 34px;
+}
+
+
+.fases__containerParagrafo--dPessoal {
+    width: 582px;
+    height: 90px;
+}
+
+.fases__containerParagrafo--dProfissional {
+    width: 545px;
+    height: 50px;
+    margin-right: 122px;
+    line-height: 23px;
+}
+
+.fases__containerParagrafo--eFinanceira {
+    width: 551px;
+    height: 100px;
+}
+
+.fases__containerParagrafo--mFinanceiro {
+    width: 461px;
+    height: 120px;
+    margin-right: 142px;
+}
+
+.fases__containers {
+    width: 1085px;
+    margin-left: 161px;
+    margin-right: 194px;
+}
+
+.fases__containerTitulo {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(40, 26, 200, 1));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(11, 8, 56);
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+
+/* CONTAINERS */
+
+/* RESPONSIVIDADE */
+
+
+@media screen and (min-width: 1854px) {
+    .fundo-azul {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .menu ul {
+        width: fit-content;
+    }
+}
+
+@media screen and (max-width: 996px) {
+    .fundo-azul {
+        background-size: cover;
+        background-repeat: repeat;
+    }
+
+    .fases__paragrafo {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .menu ul li { 
+        margin: 15px;
+    }
+
+    .menu ul li a {
+        padding: initial;
+    }
+
+    .img-responsive-central{
+        width: 100%;
+    }
+
+    .fases__paragrafo {
+        width: 95%;
+        margin-bottom: 3em;
+    }
+
+    .justify-content-flex-start  {
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    #responsividade-cabecalho {
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+    }
+
+    #responsividade-bem-vindo {
+        flex-direction: column-reverse;
+    }
+
+    .paragrafo-bem-vindo {
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+    }
+
+    .titulo-cabecalho , .subtitulo-cabecalho{
+        display: flex;
+        justify-content: center;
+        padding: 1em;
+    }
+}
+
+@media screen and (max-width: 606px){
+    .fases__paragrafo {
+        width: 95%;
+        margin-bottom: 5em;
+    }
+}
+
+@media screen and (max-width: 468px) {
+    .fases__cardTitulo{
+        text-align: center;
+    }
+
+    .fases__paragrafo {
+        width: 95%;
+        margin-bottom: 8em;
+    }
+}
+
+
+
+/* RESPONSIVIDADE */

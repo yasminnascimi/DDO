@@ -1,0 +1,92 @@
+.help{
+    background-image:url(../../img/ondinha.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Poppins;
+    height: 500px;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+.help__cabecalho{
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 0 1rem black;
+    display: flex;
+    align-items: center;
+    height: 346px;
+    width:978px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50px;
+}
+.help__cabecalho__info{
+    background: linear-gradient(178.18deg, #9AE3F3 -13.56%, #281AC8 158.3%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 42px;
+    padding: 0 4rem 0 4rem;
+    text-align: justify;
+    width:60%;
+}
+
+.help__cabecalho__img{
+    width: 40%;
+}
+.help__cabecalho__img__img{
+    max-width: 264px;
+}
+
+.help__cabecalho__info2{
+    background:  #281AC8 ;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    padding: 0 2rem 0 2rem;
+    text-align: justify;
+    width:100%;
+}
+
+.subtitle li a {
+    background:  #281AC8 ;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-decoration: none;
+    text-decoration-line: none;
+    list-style:none ;
+    counter-reset: none;
+    list-style-type: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    padding: 0 4rem 0 4rem;
+    text-align: justify;
+    width:100%;
+}
+
+.subtitle li a:hover {
+    color:#9AE3F3;
+    transition: 0.3s;
+    text-decoration: underline;
+    border: none;
+    transition: 0.3s;
+    text-decoration: none;
+
+}
+
+
+@media screen and (max-width: 1000px){
+    .help__cabecalho{
+        height: auto;
+        width:90%;
+    }
+}
